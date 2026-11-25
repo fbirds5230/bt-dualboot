@@ -6,6 +6,10 @@ The format is based on [Keep a Changelog](https://keepachangelog.com/en/1.0.0/),
 
 ## [Unreleased]
 
+### Changed
+
+- Devices are listed in a stable order (sorted by adapter and device MAC) by `-l` and `--sync-all`, instead of the order the filesystem happens to return them in.
+
 ## [0.1.3] - 2026-09-12
 
 ### Fixed
